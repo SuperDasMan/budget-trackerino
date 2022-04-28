@@ -5,7 +5,7 @@ const compression = require('compression');
 
 const PORT = process.env.PORT || 3001;
 const MONGODB_URI =
-  process.env.MONGODB_URI || 'mongodb://0.0.0.0:27017/budget-trackerino';
+  process.env.MONGODB_URI || 'mongodb://localhost:27017/budget-trackerino';
 
 const app = express();
 
